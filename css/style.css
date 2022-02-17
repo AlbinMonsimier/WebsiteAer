@@ -117,7 +117,9 @@ strong {
   font-weight: bolder; }
 
 small {
-  font-size: 80%; }
+  font-size: 80%;
+  line-height: 0 !important;
+ }
 
 sub,
 sup {
