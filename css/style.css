@@ -202,6 +202,24 @@ button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color; }
 
+  .button-hover {
+    font-family: arial black;
+    font-size: 100px;
+    color: #000;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    opacity: 1;
+}
+
+.button-hover:hover {
+  opacity: 75%;
+  background-color: lightgray;
+  width: 3000px;
+}
+
 input,
 button,
 select,
@@ -9355,7 +9373,7 @@ textarea.form-control {
     height: 400px;
     margin-bottom: 30px; } }
 
-.image-popup {
+.galery {
   cursor: -webkit-zoom-in;
   cursor: -moz-zoom-in;
   cursor: zoom-in; }
