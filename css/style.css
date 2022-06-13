@@ -6772,7 +6772,11 @@ button.bg-dark:focus {
 
 .mb-0,
 .my-0 {
-  margin-bottom: 0 !important; }
+  margin-bottom: 0 !important;
+  position: relative;
+  /* align-items: center ; */
+  margin-top: 33%;
+}
 
 .ml-0,
 .mx-0 {
@@ -8579,7 +8583,7 @@ h1, h2, h3, h4, h5,
     .hero-wrap {
       background-position: center center !important; } }
   .hero-wrap.hero-wrap-2 {
-    height: 400px;
+    height: 640px;
     position: relative;
     background-position: center center !important; }
     .hero-wrap.hero-wrap-2 .overlay {
