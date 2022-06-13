@@ -6778,6 +6778,13 @@ button.bg-dark:focus {
   margin-top: 33%;
 }
 
+@media (max-width: 991.98px) {
+  .mb-0 {
+    /* align-items: center ; */
+    margin-top: 0;
+    margin-bottom: 100% !important;
+}
+
 .ml-0,
 .mx-0 {
   margin-left: 0 !important; }
@@ -8582,13 +8589,21 @@ h1, h2, h3, h4, h5,
   z-index: 0; }
 
   @media (max-width: 991.98px) {
+    .hero-wrap {
+      height: 500px;
+    }
+  }
+
+
+  @media (max-width: 991.98px) {
     .hero-wrap-2 {
       display: none;
       background-position: center center !important; } }
 
-      @media (min-width: 991.98px) {
-        .hero-wrap-mobile {
+  @media (min-width: 991.98px) {
+  .hero-wrap-mobile {
           display: none;
+          height: 60px;
           background-position: center center !important; } }
   .hero-wrap.hero-wrap-2 {
     height: 640px;
