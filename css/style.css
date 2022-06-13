@@ -503,6 +503,11 @@ pre {
   margin-right: -15px;
   margin-left: -15px; }
 
+  @media (max-width: 992px) {
+  .row {
+    margin-left: 40px; }
+  }
+  
 .no-gutters {
   margin-right: 0;
   margin-left: 0; }
