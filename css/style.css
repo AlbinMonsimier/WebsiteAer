@@ -209,14 +209,15 @@ button:focus {
     -moz-transition: all 1s ease-in-out;
     -ms-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
+    transition: all 1.75s ease-in-out;
     opacity: 1;
 }
 
 .button-hover:hover {
   opacity: 75%;
   background-color: lightgray;
-  width: 3000px;
+  position: relative;
+  bottom: 10px;
 }
 
 input,
@@ -313,6 +314,29 @@ output {
 summary {
   display: list-item;
   cursor: pointer; }
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+}
+  
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scale(0.65);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #102e49;
+    transform-origin: bottom left;
+    transition: transform 0.5s ease-out;
+}
+  
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 
 template {
   display: none; }
