@@ -8571,6 +8571,7 @@ h1, h2, h3, h4, h5,
     .navbar-brand .icon span {
       color: #fff; }
 
+
 .hero-wrap {
   width: 100%;
   height: 900px;
@@ -8579,9 +8580,16 @@ h1, h2, h3, h4, h5,
   background-repeat: no-repeat;
   background-position: center center;
   z-index: 0; }
+
   @media (max-width: 991.98px) {
-    .hero-wrap {
+    .hero-wrap-2 {
+      display: none;
       background-position: center center !important; } }
+
+      @media (min-width: 991.98px) {
+        .hero-wrap-mobile {
+          display: none;
+          background-position: center center !important; } }
   .hero-wrap.hero-wrap-2 {
     height: 640px;
     position: relative;
